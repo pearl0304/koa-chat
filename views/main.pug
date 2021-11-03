@@ -1,9 +1,16 @@
 doctype html
 html(lang="ko")
-    head
-        meta(charset="UTF-8")
-        meta(http-equiv="X-UA-Compatible", content="IE=edge")
-        meta(name="viewport", content="width=device-width, initial-scale=1.0")
-        title :: welcome
-    body 
-    h1 main page
+    include inc/head.pug
+body 
+    header#header
+        div.h-tit 
+            a(href="") 
+                img(src="", alt="")
+            h2 Login
+
+    div#index-wrap 
+        form#loginform.btn-wrap(action="#" method="post")
+            input.btn-comn.signup-btn.btn-line 
+            input 
+            button 
+            
